@@ -10,6 +10,32 @@ html {
   background-color: black;
 }
 
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center-line {
+  height: 5px;
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  background-image: linear-gradient(to right, black, white, black);
+  background-size: 200% 100%;
+  animation: gradient 2s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.8;
