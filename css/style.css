@@ -10,6 +10,11 @@ html {
   background-color: green;
 }
 
+@media (max-width: 768px) {
+  .center-line {
+    width: 22%;
+  }
+}
 
 .ftco-subheading {
   color: #333333;
