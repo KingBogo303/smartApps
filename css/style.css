@@ -2,13 +2,23 @@ html {
   overflow-x: hidden;
 }
 
-.center-line {
-  height: 5px;
-  width: 50%;
+.center-line{
+  height: 2px;
+  width: 10%;
   margin: 0 auto;
   border: none;
   background-color: black;
 }
+
+
+
+/* .center-line {
+  height: 2px;
+  width: 10%;
+  margin: 0 auto;
+  border: none;
+  background-size: 200% 100%;
+} */
 
 
 h2 {
@@ -16,22 +26,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.center-line {
-  height: 2px;
-  width: 10%;
-  margin: 0 auto;
-  border: none;
-  background-size: 200% 100%;
-}
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-}
 
 
 body {
