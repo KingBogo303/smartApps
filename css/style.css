@@ -17,13 +17,11 @@ h2 {
 }
 
 .center-line {
-  height: 5px;
-  width: 50%;
+  height: 2px;
+  width: 10%;
   margin: 0 auto;
   border: none;
-  background-image: linear-gradient(to right, black, white, black);
   background-size: 200% 100%;
-  animation: gradient 2s linear infinite;
 }
 
 @keyframes gradient {
