@@ -10,10 +10,12 @@ html {
   background-color: black;
 }
 
-
 h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+footer h2 {
+  text-align: initial;
 }
 
 .center-line {
@@ -32,7 +34,6 @@ h2 {
     background-position: 100% 50%;
   }
 }
-
 
 body {
   font-family: "Montserrat", sans-serif;
