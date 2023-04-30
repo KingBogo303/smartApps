@@ -2,14 +2,12 @@ html {
   overflow-x: hidden;
 }
 
-
 .navbar-btn {
   position: relative;
   top: 5px;
 }
 
-
-.center-line{
+.center-line {
   height: 2px;
   width: 10%;
   margin: 0 auto;
@@ -30,8 +28,7 @@ html {
   line-height: 1.4;
 }
 
-
-#myBtn{
+#myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -52,8 +49,12 @@ html {
 }
 
 @keyframes backToTop {
-  from { transform: translate(0, 100%); }
-  to { transform: translate(0, 0); }
+  from {
+    transform: translate(0, 100%);
+  }
+  to {
+    transform: translate(0, 0);
+  }
 }
 
 #myBtn {
@@ -76,16 +77,13 @@ body {
   color: #859196;
 }
 
-
-.container-text{
+.container-text {
   text-align: center;
 }
 
-.footer-text{
+.footer-text {
   margin: 0 auto;
   line-height: 40px;
-
-
 }
 
 a {
@@ -127,7 +125,7 @@ h5,
 }
 @media screen and (max-width: 991px) {
   .ftco-navbar-light {
-    background: #000 !important;
+    background: #fff !important;
     top: 0;
     position: relative;
   }
@@ -177,7 +175,9 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  border-color: rgba(0, 0, 0, 0.5) !important;
+  /* color: rgba(255, 255, 255, 0.5) !important; */
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
