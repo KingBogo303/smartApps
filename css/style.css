@@ -2,6 +2,13 @@ html {
   overflow-x: hidden;
 }
 
+
+.navbar-btn {
+  position: relative;
+  top: 5px;
+}
+
+
 .center-line{
   height: 2px;
   width: 10%;
